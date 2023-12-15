@@ -1,0 +1,17 @@
+.todoList { display: flex; flex-direction: column; width: 100%; max-width: calc(345px + 5%); align-items: center; gap: 20px; list-style: none; padding: 0; overflow: auto; max-height: 800px; }
+
+.todoList li { display: flex; flex-direction: column; justify-content: center; position: relative; width: 80%; background: #FFFF; border-radius: 4px; box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.1); padding: 10px; padding-right: 15%; }
+
+.todoList li:last-child { margin-bottom: 50px; }
+
+.todoList .content { display: flex; align-items: flex-start; flex-direction: column; justify-content: center; position: relative; width: 100%; gap: 8px; user-select: none; }
+.todoList .content div { display: flex; gap: 15px; }
+.todoList .content svg { margin-right: -10px; }
+.todoList .content span { display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden; max-width: 300px; max-height: 75px; line-break: anywhere; text-overflow: ellipsis; }
+.todoList .completed span { text-decoration: line-through; }
+
+.todoList button { position: absolute; left: 88%; height: 25px; width: 25px; border: 0; outline: 0; cursor: pointer;
+    color: rgb(60, 66, 87); background-color: rgb(255, 255, 255); border-radius: 4px;
+    box-shadow: rgb(60 66 87 / 16%) 0px 0px 0px 1px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(60 66 87 / 8%) 0px 2px 5px 0px;
+}
+.todoList button:hover { background: rgb(122, 122, 122); color: #FFF;}
