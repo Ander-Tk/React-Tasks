@@ -1,0 +1,14 @@
+{
+    "name" : "React Tasks",
+    "short_name" : "React Tasks",
+    "start_url": "/",
+    "display": "standalone",
+    "theme_color": "#FFFFFF",
+    "icons": [
+        { 
+            "src": "./src/icones/tasks-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        }
+    ]
+}
